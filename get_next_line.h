@@ -6,7 +6,7 @@
 /*   By: ikourkji <ikourkji@student.42.us.or>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/08 02:00:01 by ikourkji          #+#    #+#             */
-/*   Updated: 2018/12/13 08:05:00 by ikourkji         ###   ########.fr       */
+/*   Updated: 2019/01/09 04:47:11 by ikourkji         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include "libft/libft.h"
 
 # define BUFF_SIZE 32
-# define MAL(x) if (!x) return (-1);
+# define CHECK(x) if (x) return (-1);
 
 int	get_next_line(const int fd, char **line);
 
