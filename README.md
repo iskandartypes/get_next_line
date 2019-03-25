@@ -3,4 +3,4 @@
 
 Will read each newline delimited line in a file until EOF.
 
-Small project; is now a submodule of my (libft)[https://github.com/naregjan/libft], the library it requires to work anyway.
+Small project; is now a submodule of my [libft](https://github.com/naregjan/libft), the library it requires to work anyway.
